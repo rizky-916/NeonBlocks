@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# Local game data (high scores are stored in the user data folder,
+# but ignore any stray copies just in case)
+*highscore*.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets - never commit these
+.env
+*.pem
+*.key
